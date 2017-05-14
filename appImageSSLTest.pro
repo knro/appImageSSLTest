@@ -25,6 +25,4 @@ DEFINES += QT_DEPRECATED_WARNINGS
 HEADERS += \
     simpledownload.h
 
-target.path = appdir
-INSTALLS += target
 

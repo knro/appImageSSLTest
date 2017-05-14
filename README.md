@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/knro/appImageSSLTest?branch=master)](https://travis-ci.org/knro/appImageSSLTest)
+
 This is a simple SSL test for Qt 5.8+ in AppImages.
 
 The test request this URL:
