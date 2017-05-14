@@ -4,7 +4,9 @@ The test request this URL:
 
 https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1705&ident=KSAN
 
-However, returned size is 0 if the application is ran within an AppImage. When running against Qt 5.8 in 16.04 locally, it works and downloads OK.
+However, returned size is 0 if the application is ran within an AppImage.
 
-When running locally using Qt 5.8 under /opt, the SSL download fails like the AppImage under Ubuntu 14.04.
+16.04: Compiled against Qt 5.8, it works and downloads OK **locally**. With AppImage, it fails.
+
+14.04: Compilted against Qt 5.8, it fails **locall** as well as within an AppImage.
 
