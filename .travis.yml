@@ -26,7 +26,7 @@ after_success:
   - export LD_LIBRARY_PATH=/opt/qt58/lib/:$LD_LIBRARY_PATH
   - ./linuxdeployqt ./appdir/appImageSSLTest -bundle-non-qt-libs -appimage
   - ./linuxdeployqt ./appdir/appImageSSLTest -bundle-non-qt-libs -appimage
-  - mv ./appImageSSLTest*.AppImage appImageSSLTest-continuous-x86_64.AppImage
+  - mv ./Application-x86_64.AppImage appImageSSLTest-continuous-x86_64.AppImage
   - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
   - bash ./upload.sh appImageSSLTest-continuous-x86_64.AppImage
   
